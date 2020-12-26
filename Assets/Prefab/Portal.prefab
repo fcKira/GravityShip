@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 9088326883581823620}
   - component: {fileID: 4495886219076771686}
   - component: {fileID: 5851295894775925013}
-  - component: {fileID: 8784742583280714401}
+  - component: {fileID: 1448098861337785980}
+  - component: {fileID: 3212622152441153977}
   m_Layer: 0
   m_Name: Portal
   m_TagString: Untagged
@@ -80,17 +81,33 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &8784742583280714401
-MeshCollider:
+--- !u!58 &1448098861337785980
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2518308935650183641}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.24
+--- !u!114 &3212622152441153977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2518308935650183641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad84679372a311b49b3c22eb8137a663, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attractForce: 5
+  attractRadius: 2.21
