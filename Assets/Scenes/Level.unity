@@ -399,9 +399,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attractForce: 1.3
   attractRadius: 2
-  attractLayer:
-    serializedVersion: 2
-    m_Bits: 256
 --- !u!212 &358562844
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -598,9 +595,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attractForce: 1.3
   attractRadius: 2
-  attractLayer:
-    serializedVersion: 2
-    m_Bits: 256
 --- !u!212 &546431525
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -957,9 +951,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attractForce: 1.3
   attractRadius: 2
-  attractLayer:
-    serializedVersion: 2
-    m_Bits: 256
 --- !u!212 &1890568064
 SpriteRenderer:
   m_ObjectHideFlags: 0
