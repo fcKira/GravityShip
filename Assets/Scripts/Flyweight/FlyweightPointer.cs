@@ -2,6 +2,7 @@
 {
     public static readonly FlyweightAttractor Asteroid = new FlyweightAttractor
     {
-        layerMask = (1<<8), // | (1<<9)
+        layerMaskForPlanets = (1 << 8), // | (1<<9)
+        layerMaskForShip = (1 << 9),
     };
 }

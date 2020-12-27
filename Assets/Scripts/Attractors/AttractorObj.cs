@@ -2,18 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AttractorObj : MonoBehaviour
+public class AttractorObj : Attractor
 {
-    public float attractForce;
-    public float attractRadius;
-
-    private void FixedUpdate()
+    protected override void Attract()
     {
-        var shipCollider = Physics2D.OverlapCircle(transform.position, attractRadius, FlyweightPointer.Asteroid.layerMask);
+        var shipCollider = Physics2D.OverlapCircle(transform.position, attractRadius, FlyweightPointer.Asteroid.layerMaskForPlanets);
 
         if (shipCollider)
         {
-            shipCollider.GetComponent<ShipModel>().GetExtraForce(attractForce, transform.position);
+            shipCollider.GetComponent<IGravitySensitive>().GetExtraForce(attractForce, transform.position);
         }
     }
 

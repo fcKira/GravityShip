@@ -148,8 +148,6 @@ public class ShipBoost : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, 
     {
         if (_currentBoost > 0)
         {
-            //if (Input.GetMouseButton(0))
-            //    Debug.Log("VAMAAA");
             TouchBegan();
         }
     }

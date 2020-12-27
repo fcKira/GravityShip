@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ShipModel : MonoBehaviour
+public class ShipModel : Attractor, IGravitySensitive
 {
     public float baseSpeed;
     public float boostSpeed;
@@ -15,6 +15,8 @@ public class ShipModel : MonoBehaviour
 
     public bool boolean;
 
+    float _boundWidth, _boundHeight;
+
     void Awake()
     {
         _controller = new ShipController(this, GetComponent<ShipView>());
@@ -25,16 +27,26 @@ public class ShipModel : MonoBehaviour
 
         _rgbd.velocity = transform.right * _totalSpeed;
 
+        _boundHeight = Camera.main.orthographicSize;
+        _boundWidth = _boundHeight * Screen.width / Screen.height;
+
     }
 
-    void FixedUpdate()
+    protected override void FixedUpdate()
     {
+        base.FixedUpdate();
 
         _controller.ControllerFixedUpdate();
+        
+    }
 
-        //if (boolean) StartBoost();
-        //else StopBoost();
-
+    void LateUpdate()
+    {
+        if (transform.position.x > _boundWidth || transform.position.x < -_boundWidth || transform.position.y < -_boundHeight || transform.position.y > _boundHeight)
+        {
+            UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex);
+        }
+        
     }
 
     public void Movement()
@@ -49,13 +61,11 @@ public class ShipModel : MonoBehaviour
 
     public void StartBoost()
     {
-        //_totalSpeed = boostSpeed + baseSpeed;
         _totalSpeed += boostSpeed;
     }
 
     public void StopBoost()
     {
-        //_totalSpeed = baseSpeed;
         _totalSpeed -= boostSpeed;
     }
 
@@ -65,9 +75,31 @@ public class ShipModel : MonoBehaviour
         _rgbd.AddForce(dir.normalized * extraForce);
     }
 
+    protected override void Attract()
+    {
+        Collider2D[] pickables = Physics2D.OverlapCircleAll(transform.position, attractRadius, FlyweightPointer.Asteroid.layerMaskForShip);
+
+        foreach (var obj in pickables)
+        {
+            obj.GetComponent<IGravitySensitive>().GetExtraForce(attractForce, transform.position);
+        }
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.GetComponent<AttractorObj>())
+        var pickableObj = collision.GetComponent<Pickable>();
+        
+        if (pickableObj)
+            pickableObj.PickedUp();
+        else if (collision.GetComponent<AttractorObj>())
             UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex);
+
     }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.blue;
+        Gizmos.DrawWireSphere(transform.position, attractRadius);
+    }
+
 }
