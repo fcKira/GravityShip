@@ -6,6 +6,8 @@ public class Pickable : MonoBehaviour, IGravitySensitive
 {
     Rigidbody2D _rgbd;
 
+    public event System.Action onPickedUp;
+
     void Awake()
     {
         _rgbd = GetComponent<Rigidbody2D>();
@@ -19,6 +21,7 @@ public class Pickable : MonoBehaviour, IGravitySensitive
 
     public void PickedUp()
     {
+        onPickedUp?.Invoke();
         Destroy(gameObject);
     }
 }

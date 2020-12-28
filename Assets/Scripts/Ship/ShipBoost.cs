@@ -16,6 +16,12 @@ public class ShipBoost : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, 
     Action _onBegan = delegate { };
     Action _onEnd = delegate { };
 
+
+    private void OnEnable()
+    {
+        EventsManager.SubscribeToEvent(Constants.EVENT_SetPlayer, GetPlayer);
+    }
+
     void Start()
     {
         //Mouse or Touch input
@@ -27,15 +33,6 @@ public class ShipBoost : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, 
         _currentBoost = totalBoost;
 
         boostBar.fillAmount = 1;
-
-        //Add start and end boost from ship into my buttonUp and buttonDown Actions
-        ShipModel ship = FindObjectOfType<ShipModel>();
-
-        if (ship)
-        {
-            _onBegan = ship.StartBoost;
-            _onEnd = ship.StopBoost;
-        }
     }
 
 
@@ -49,6 +46,20 @@ public class ShipBoost : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, 
         {
             DrainBoost();  //Drain boost
         }
+    }
+
+    private void OnDisable()
+    {
+        EventsManager.UnsubscribeToEvent(Constants.EVENT_SetPlayer, GetPlayer);
+    }
+
+    //Add start and end boost from ship into my buttonUp and buttonDown Actions
+    void GetPlayer(params object[] p)
+    {
+        var ship = (ShipModel)p[0];
+
+        _onBegan = ship.StartBoost;
+        _onEnd = ship.StopBoost;
     }
 
     void TouchBegan()

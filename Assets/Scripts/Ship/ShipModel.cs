@@ -32,6 +32,11 @@ public class ShipModel : Attractor, IGravitySensitive
 
     }
 
+    private void Start()
+    {
+        EventsManager.TriggerEvent(Constants.EVENT_SetPlayer, this);
+    }
+
     protected override void FixedUpdate()
     {
         base.FixedUpdate();
@@ -46,7 +51,6 @@ public class ShipModel : Attractor, IGravitySensitive
         {
             UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex);
         }
-        
     }
 
     public void Movement()
