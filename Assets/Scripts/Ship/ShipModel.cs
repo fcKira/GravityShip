@@ -17,6 +17,8 @@ public class ShipModel : Attractor, IGravitySensitive
 
     float _boundWidth, _boundHeight;
 
+    Vector3 _velocityBeforePause = new Vector3();
+
     void Awake()
     {
         _controller = new ShipController(this, GetComponent<ShipView>());
@@ -30,6 +32,12 @@ public class ShipModel : Attractor, IGravitySensitive
         _boundHeight = Camera.main.orthographicSize;
         _boundWidth = _boundHeight * Screen.width / Screen.height;
 
+    }
+
+    private void OnEnable()
+    {
+        if (_velocityBeforePause != Vector3.zero)
+            _rgbd.velocity = _velocityBeforePause;
     }
 
     private void Start()
@@ -51,6 +59,12 @@ public class ShipModel : Attractor, IGravitySensitive
         {
             UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex);
         }
+    }
+
+    private void OnDisable()
+    {
+        _velocityBeforePause = _rgbd.velocity;
+        _rgbd.velocity = Vector3.zero;
     }
 
     public void Movement()
