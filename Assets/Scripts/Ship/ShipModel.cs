@@ -1,13 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.EventSystems;
 
 public class ShipModel : Attractor, IGravitySensitive
 {
     public float baseSpeed;
     public float boostSpeed;
-    public float rotationAngles;
 
     ShipController _controller;
 
@@ -15,13 +13,11 @@ public class ShipModel : Attractor, IGravitySensitive
 
     Rigidbody2D _rgbd;
 
-    bool _gettingBoost;
+    public bool boolean;
 
     float _boundWidth, _boundHeight;
 
     Vector3 _velocityBeforePause = new Vector3();
-
-    Camera _mainCamera;
 
     void Awake()
     {
@@ -33,9 +29,7 @@ public class ShipModel : Attractor, IGravitySensitive
 
         _rgbd.velocity = transform.right * _totalSpeed;
 
-        _mainCamera = Camera.main;
-
-        _boundHeight = _mainCamera.orthographicSize;
+        _boundHeight = Camera.main.orthographicSize;
         _boundWidth = _boundHeight * Screen.width / Screen.height;
 
     }
@@ -49,23 +43,6 @@ public class ShipModel : Attractor, IGravitySensitive
     private void Start()
     {
         EventsManager.TriggerEvent(Constants.EVENT_SetPlayer, this);
-    }
-
-    private void Update()
-    {
-        if (Input.touchCount > 0)
-        {
-            Touch touch = Input.GetTouch(0);
-            RotateShip(touch.position);
-        }
-
-        if (Input.GetMouseButton(0))
-        {
-            Vector3 mousePosition = Input.mousePosition;
-
-            RotateShip(Input.mousePosition);
-
-        }
     }
 
     protected override void FixedUpdate()
@@ -92,56 +69,22 @@ public class ShipModel : Attractor, IGravitySensitive
 
     public void Movement()
     {
-        //if (_rgbd.velocity.magnitude < _totalSpeed)
-        //{
-        //    _rgbd.AddForce(transform.right * _totalSpeed);
-        //}
-
-        if (_gettingBoost)
-            _rgbd.AddForce(transform.right * boostSpeed);
+        if (_rgbd.velocity.magnitude < _totalSpeed)
+        {
+            _rgbd.AddForce(transform.right * _totalSpeed);
+        }
 
         transform.right = _rgbd.velocity.normalized;
     }
 
-    public void RotateShip(Vector3 tapPossition)
-    {
-        if (IsPointerOverUIObject()) return;
-
-        Vector2 realPos = _mainCamera.ScreenToWorldPoint(tapPossition);
-
-        Vector2 dir = ((Vector2)transform.position - realPos).normalized;
-
-        float dotRes = Vector2.Dot(transform.up, dir);
-
-        if (dotRes < 0)
-        {
-            _rgbd.AddForce(transform.up * rotationAngles);
-        }
-        else
-        {
-            _rgbd.AddForce(transform.up * -rotationAngles);
-        }
-    }
-
-    private bool IsPointerOverUIObject()
-    {
-        PointerEventData eventDataCurrentPosition = new PointerEventData(EventSystem.current);
-        eventDataCurrentPosition.position = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
-        List<RaycastResult> results = new List<RaycastResult>();
-        EventSystem.current.RaycastAll(eventDataCurrentPosition, results);
-        return results.Count > 0;
-    }
-
     public void StartBoost()
     {
-        //_totalSpeed += boostSpeed;
-        _gettingBoost = true;
+        _totalSpeed += boostSpeed;
     }
 
     public void StopBoost()
     {
-        //_totalSpeed -= boostSpeed;
-        _gettingBoost = false;
+        _totalSpeed -= boostSpeed;
     }
 
     public void GetExtraForce(float extraForce, Vector3 center)
