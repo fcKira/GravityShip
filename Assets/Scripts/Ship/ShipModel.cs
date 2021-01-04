@@ -73,8 +73,7 @@ public class ShipModel : Attractor, IGravitySensitive
         base.FixedUpdate();
 
         _controller.ControllerFixedUpdate();
-
-        Debug.Log(_rgbd.velocity.magnitude);
+        
     }
 
     void LateUpdate()
@@ -116,11 +115,11 @@ public class ShipModel : Attractor, IGravitySensitive
 
         if (dotRes < 0)
         {
-            _rgbd.AddForce(transform.up * (rotationAngles * _rgbd.velocity.magnitude));
+            _rgbd.AddForce(transform.up * rotationAngles);
         }
         else
         {
-            _rgbd.AddForce(transform.up * -(rotationAngles * _rgbd.velocity.magnitude));
+            _rgbd.AddForce(transform.up * -rotationAngles);
         }
     }
 
