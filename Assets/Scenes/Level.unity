@@ -2336,7 +2336,7 @@ MonoBehaviour:
   baseSpeed: 0.3
   boostSpeed: 2
   rotationAngles: 0.1
-  linearDragOnBoost: 0.05
+  linearDragOnBoost: 0.01
 --- !u!50 &2138278345
 Rigidbody2D:
   serializedVersion: 4
