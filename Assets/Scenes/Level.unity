@@ -2332,6 +2332,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attractForce: 0.7
   attractRadius: 0.83
+  maxSpeed: 1.6
   baseSpeed: 0.3
   boostSpeed: 2
   rotationAngles: 0.1

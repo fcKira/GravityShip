@@ -5,6 +5,7 @@ using UnityEngine.EventSystems;
 
 public class ShipModel : Attractor, IGravitySensitive
 {
+    public float maxSpeed;
     public float baseSpeed;
     public float boostSpeed;
     public float rotationAngles;
@@ -75,8 +76,13 @@ public class ShipModel : Attractor, IGravitySensitive
         _controller.ControllerFixedUpdate();
 
         Debug.Log(_rgbd.velocity.magnitude);
-    }
 
+        if (_rgbd.velocity.magnitude > maxSpeed)
+        {
+            _rgbd.velocity = Vector3.ClampMagnitude(_rgbd.velocity, maxSpeed);
+        }
+
+    }
     void LateUpdate()
     {
         if (transform.position.x > _boundWidth || transform.position.x < -_boundWidth || transform.position.y < -_boundHeight || transform.position.y > _boundHeight)
