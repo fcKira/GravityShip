@@ -78,23 +78,11 @@ public class ShipModel : Attractor, IGravitySensitive
         base.FixedUpdate();
 
         _controller.ControllerFixedUpdate();
-        
-        if (!_gettingBoost && _rgbd.drag != 0)
-        {
-            if (_rgbd.velocity.magnitude <= maxSpeed)
-            {
-                _rgbd.drag = 0;
-            }
-        }
-        else if (_rgbd.drag == 0)
-        {
-            if (_rgbd.velocity.magnitude > maxSpeed)
-            {
-                _rgbd.velocity = Vector3.ClampMagnitude(_rgbd.velocity, maxSpeed);
-            }
-        }
 
         Debug.Log(_rgbd.velocity.magnitude);
+
+        
+
     }
     void LateUpdate()
     {
@@ -118,7 +106,16 @@ public class ShipModel : Attractor, IGravitySensitive
         //}
 
         if (_gettingBoost)
+        {
             _rgbd.AddForce(transform.right * boostSpeed);
+        }
+        else
+        {
+            if (_rgbd.velocity.magnitude > maxSpeed)
+            {
+                _rgbd.velocity = Vector3.ClampMagnitude(_rgbd.velocity, maxSpeed);
+            }
+        }
 
         transform.right = _rgbd.velocity.normalized;
     }
@@ -163,6 +160,7 @@ public class ShipModel : Attractor, IGravitySensitive
     {
         //_totalSpeed -= boostSpeed;
         _gettingBoost = false;
+        _rgbd.drag = 0;
     }
 
     public void GetExtraForce(float extraForce, Vector3 center)
