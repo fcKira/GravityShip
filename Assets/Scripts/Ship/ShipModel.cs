@@ -9,6 +9,7 @@ public class ShipModel : Attractor, IGravitySensitive
     public float baseSpeed;
     public float boostSpeed;
     public float rotationAngles;
+    public float linearDragOnBoost;
 
     ShipController _controller;
 
@@ -36,8 +37,11 @@ public class ShipModel : Attractor, IGravitySensitive
 
         _mainCamera = Camera.main;
 
-        _boundHeight = _mainCamera.orthographicSize;
-        _boundWidth = _boundHeight * Screen.width / Screen.height;
+        _boundHeight = 8000;
+        _boundWidth = 8000;
+
+        //_boundHeight = _mainCamera.orthographicSize;
+        //_boundWidth = _boundHeight * Screen.width / Screen.height;
 
     }
 
@@ -77,10 +81,7 @@ public class ShipModel : Attractor, IGravitySensitive
 
         Debug.Log(_rgbd.velocity.magnitude);
 
-        if (_rgbd.velocity.magnitude > maxSpeed)
-        {
-            _rgbd.velocity = Vector3.ClampMagnitude(_rgbd.velocity, maxSpeed);
-        }
+        
 
     }
     void LateUpdate()
@@ -105,7 +106,16 @@ public class ShipModel : Attractor, IGravitySensitive
         //}
 
         if (_gettingBoost)
+        {
             _rgbd.AddForce(transform.right * boostSpeed);
+        }
+        else
+        {
+            if (_rgbd.velocity.magnitude > maxSpeed)
+            {
+                _rgbd.velocity = Vector3.ClampMagnitude(_rgbd.velocity, maxSpeed);
+            }
+        }
 
         transform.right = _rgbd.velocity.normalized;
     }
@@ -143,12 +153,14 @@ public class ShipModel : Attractor, IGravitySensitive
     {
         //_totalSpeed += boostSpeed;
         _gettingBoost = true;
+        _rgbd.drag = linearDragOnBoost;
     }
 
     public void StopBoost()
     {
         //_totalSpeed -= boostSpeed;
         _gettingBoost = false;
+        _rgbd.drag = 0;
     }
 
     public void GetExtraForce(float extraForce, Vector3 center)
