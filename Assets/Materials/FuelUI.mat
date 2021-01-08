@@ -10,7 +10,7 @@ Material:
   m_Name: FuelUI
   m_Shader: {fileID: 4800000, guid: 25cc6d9fbab74424483ce2e202b3de08, type: 3}
   m_ShaderKeywords: 
-  m_LightmapFlags: 4
+  m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -19,12 +19,32 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _BubblesColor:
+        m_Texture: {fileID: 2800000, guid: 2512eac8dd4100a4d8a63b5cc070a7d8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainInterface:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 25bb5dd3cb4e0954ba8b8c76f05c62fd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture0:
+        m_Texture: {fileID: 2800000, guid: 3d763f65bd35a174ab73f54d9f55eb82, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture1:
+        m_Texture: {fileID: 2800000, guid: 6590226ab6deb444cba5b34e9670d2b8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2:
+        m_Texture: {fileID: 2800000, guid: 3e24d74986dfe9945a1f52c44e944bcd, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TextureSample0:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 94aba7dce416c7040b51d1688d29a3c0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample2:
+        m_Texture: {fileID: 2800000, guid: f1fd6688d7990c847b6034f7e124d8b9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
@@ -32,6 +52,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _ScrollSpeed: 0.5
+    - _FloodOffset: 0.27
+    - _ScrollSpeed: -0.07
     - __dirty: 0
-    m_Colors: []
+    m_Colors:
+    - _BubbleColor: {r: 1, g: 1, b: 1, a: 0}
+    - _Color0: {r: 0, g: 1, b: 0.25882363, a: 0}
+    - _FloodColor: {r: 0.08235293, g: 0.6117647, b: 0.41939947, a: 0}
+    - _InnerBubblesColor: {r: 0.12549017, g: 0.62352943, b: 0.3105595, a: 0}

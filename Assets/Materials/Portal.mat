@@ -31,6 +31,6 @@ Material:
     - __dirty: 0
     m_Colors:
     - _CenterColor: {r: 0, g: 0, b: 0, a: 0}
-    - _PortalColor: {r: 0, g: 1, b: 0.87342286, a: 0}
+    - _PortalColor: {r: 0, g: 1, b: 0.75355816, a: 0}
     - _PortalDetailColor: {r: 0, g: 0.7023964, b: 1, a: 0}
     - _UVCenter: {r: 0.5, g: 0.5, b: 0, a: 0}
