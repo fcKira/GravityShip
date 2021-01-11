@@ -58,5 +58,5 @@ Material:
     m_Colors:
     - _BubbleColor: {r: 1, g: 1, b: 1, a: 0}
     - _Color0: {r: 0, g: 1, b: 0.25882363, a: 0}
-    - _FloodColor: {r: 0.08235293, g: 0.6117647, b: 0.41939947, a: 0}
-    - _InnerBubblesColor: {r: 0.12549017, g: 0.62352943, b: 0.3105595, a: 0}
+    - _FloodColor: {r: 0.9811321, g: 0.35730764, b: 0.0786757, a: 0}
+    - _InnerBubblesColor: {r: 1, g: 0.4031586, b: 0, a: 0}

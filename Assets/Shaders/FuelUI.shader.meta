@@ -2,7 +2,8 @@ fileFormatVersion: 2
 guid: 25cc6d9fbab74424483ce2e202b3de08
 ShaderImporter:
   externalObjects: {}
-  defaultTextures: []
+  defaultTextures:
+  - _GasGradiente: {fileID: 2800000, guid: 979cc9569f3401c49b6bae27e99d885e, type: 3}
   nonModifiableTextures: []
   userData: 
   assetBundleName: 
