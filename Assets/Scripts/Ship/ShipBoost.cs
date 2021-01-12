@@ -2,12 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System;
-using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
 public class ShipBoost : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IPointerExitHandler
 {
-    public Image boostBar;
+    public Material boostBar;
     public float totalBoost = 3;
     float _currentBoost;
     bool _beingTouched;
@@ -32,7 +31,7 @@ public class ShipBoost : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, 
 
         _currentBoost = totalBoost;
 
-        boostBar.fillAmount = 1;
+        boostBar.SetFloat("_EnergyFill", 1);
     }
 
 
@@ -51,6 +50,8 @@ public class ShipBoost : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, 
     private void OnDisable()
     {
         EventsManager.UnsubscribeToEvent(Constants.EVENT_SetPlayer, GetPlayer);
+        if (_beingTouched)
+            TouchEnd();
     }
 
     //Add start and end boost from ship into my buttonUp and buttonDown Actions
@@ -77,7 +78,7 @@ public class ShipBoost : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, 
     void DrainBoost()
     {
         _currentBoost -= Time.deltaTime;
-        boostBar.fillAmount = _currentBoost/totalBoost;
+        boostBar.SetFloat("_EnergyFill", _currentBoost / totalBoost);
         if (_currentBoost <= 0)
         {
             TouchEnd();

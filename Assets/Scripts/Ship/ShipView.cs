@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class ShipView : MonoBehaviour
 {
-    // Start is called before the first frame update
+    Animator _myAnim;
+
     void Start()
     {
-        
+        _myAnim = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void UseBoost(bool b)
     {
-        
+        _myAnim.SetBool("BoostPressed", b);
     }
 }

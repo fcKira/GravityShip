@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System;
 
 public class ShipProgress : MonoBehaviour, IPlayerNeeder
 {
@@ -9,9 +10,13 @@ public class ShipProgress : MonoBehaviour, IPlayerNeeder
     Vector3 _portalPosition;
 
     Slider _sliderProgress;
-    
+
     float _startDistance;
     float _extentsOffset;
+
+    public float minSlidePos, maxSlidePos;
+
+    public event Action<float> onChangeDistance = delegate { };
 
     private void OnEnable()
     {
@@ -29,7 +34,12 @@ public class ShipProgress : MonoBehaviour, IPlayerNeeder
 
         var finalPosition = _portalPosition + dirToShip * _extentsOffset; // Static objetive position + updated direction to ship + player and objetive bound extents
 
-        _sliderProgress.value = 1 - Vector3.Distance(_playerTransf.position, finalPosition) / _startDistance;
+        float distance = Vector3.Distance(_playerTransf.position, finalPosition) / _startDistance;
+
+        float newProgress = Mathf.Lerp(maxSlidePos, minSlidePos, distance); ;
+
+        _sliderProgress.value = newProgress;
+        onChangeDistance(newProgress);
     }
 
     private void OnDisable()

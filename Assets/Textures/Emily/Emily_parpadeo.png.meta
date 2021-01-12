@@ -1,0 +1,980 @@
+fileFormatVersion: 2
+guid: 13b78dbe5f65f8a449ef5e5360187f7d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4478273307679696562
+    second: Emily_parpadeo_0
+  - first:
+      213: 6610759603371461761
+    second: Emily_parpadeo_1
+  - first:
+      213: -104727986671358746
+    second: Emily_parpadeo_2
+  - first:
+      213: -2261180528783602
+    second: Emily_parpadeo_3
+  - first:
+      213: 6366799041120075059
+    second: Emily_parpadeo_4
+  - first:
+      213: -3722192907326329387
+    second: Emily_parpadeo_5
+  - first:
+      213: -6601445556959237057
+    second: Emily_parpadeo_6
+  - first:
+      213: 1772260438612153063
+    second: Emily_parpadeo_7
+  - first:
+      213: 3829009954477554916
+    second: Emily_parpadeo_8
+  - first:
+      213: -8274149754134177351
+    second: Emily_parpadeo_9
+  - first:
+      213: 3875756042672137855
+    second: Emily_parpadeo_10
+  - first:
+      213: -147730221075846375
+    second: Emily_parpadeo_11
+  - first:
+      213: -7592564805420214891
+    second: Emily_parpadeo_12
+  - first:
+      213: -45933171402607361
+    second: Emily_parpadeo_13
+  - first:
+      213: 7318865418421074681
+    second: Emily_parpadeo_14
+  - first:
+      213: 5865617641789988622
+    second: Emily_parpadeo_15
+  - first:
+      213: 7037193456551370052
+    second: Emily_parpadeo_16
+  - first:
+      213: -8749884253710184713
+    second: Emily_parpadeo_17
+  - first:
+      213: -2215621187134528606
+    second: Emily_parpadeo_18
+  - first:
+      213: 777929143411328462
+    second: Emily_parpadeo_19
+  - first:
+      213: 2974373500434563590
+    second: Emily_parpadeo_20
+  - first:
+      213: -7483903431257156408
+    second: Emily_parpadeo_21
+  - first:
+      213: -7446413935668322940
+    second: Emily_parpadeo_22
+  - first:
+      213: 8560683874755145612
+    second: Emily_parpadeo_23
+  - first:
+      213: 1972067880451869976
+    second: Emily_parpadeo_24
+  - first:
+      213: 4484106616701466256
+    second: Emily_parpadeo_25
+  - first:
+      213: -2840565655115615847
+    second: Emily_parpadeo_26
+  - first:
+      213: -626198207692992490
+    second: Emily_parpadeo_27
+  - first:
+      213: 8485616847711170452
+    second: Emily_parpadeo_28
+  - first:
+      213: 4936066394676134508
+    second: Emily_parpadeo_29
+  - first:
+      213: -6659342692262716086
+    second: Emily_parpadeo_30
+  - first:
+      213: 5105903590707332392
+    second: Emily_parpadeo_31
+  - first:
+      213: 2770914658299484060
+    second: Emily_parpadeo_32
+  - first:
+      213: -1525759029454956390
+    second: Emily_parpadeo_33
+  - first:
+      213: 4007933897889928625
+    second: Emily_parpadeo_34
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Emily_parpadeo_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2928
+        width: 417
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4953a0572af9d1c0800000000000000
+      internalID: -4478273307679696562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_parpadeo_1
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 2928
+        width: 417
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c457e75d22ebb50800000000000000
+      internalID: 6610759603371461761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_parpadeo_2
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 2928
+        width: 417
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec6964737eeb8ef0800000000000000
+      internalID: -104727986671358746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_parpadeo_3
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 2928
+        width: 417
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f0fc1e777f7fff0800000000000000
+      internalID: -2261180528783602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_parpadeo_4
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 2928
+        width: 417
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d7242cef96b5850800000000000000
+      internalID: 6366799041120075059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_parpadeo_5
+      rect:
+        serializedVersion: 2
+        x: 2085
+        y: 2928
+        width: 417
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dde555954d185cc0800000000000000
+      internalID: -3722192907326329387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_parpadeo_6
+      rect:
+        serializedVersion: 2
+        x: 2502
+        y: 2928
+        width: 417
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c2d5ded34f264a0800000000000000
+      internalID: -6601445556959237057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_parpadeo_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2196
+        width: 417
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e294f4aa75589810800000000000000
+      internalID: 1772260438612153063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_parpadeo_8
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 2196
+        width: 417
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ecb1124440632530800000000000000
+      internalID: 3829009954477554916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_parpadeo_9
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 2196
+        width: 417
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b9527e03a05c2d80800000000000000
+      internalID: -8274149754134177351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_parpadeo_10
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 2196
+        width: 417
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f76eb8f069379c530800000000000000
+      internalID: 3875756042672137855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_parpadeo_11
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 2196
+        width: 417
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b2f2a852823fdf0800000000000000
+      internalID: -147730221075846375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_parpadeo_12
+      rect:
+        serializedVersion: 2
+        x: 2085
+        y: 2196
+        width: 417
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5959bce598ac1a690800000000000000
+      internalID: -7592564805420214891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_parpadeo_13
+      rect:
+        serializedVersion: 2
+        x: 2502
+        y: 2196
+        width: 417
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff4f3232600dc5ff0800000000000000
+      internalID: -45933171402607361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_parpadeo_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1464
+        width: 417
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9faf0ef2255d19560800000000000000
+      internalID: 7318865418421074681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_parpadeo_15
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 1464
+        width: 417
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f1827fa2cd66150800000000000000
+      internalID: 5865617641789988622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_parpadeo_16
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 1464
+        width: 417
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d92710a2229a160800000000000000
+      internalID: 7037193456551370052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_parpadeo_17
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 1464
+        width: 417
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe02df41aa229680800000000000000
+      internalID: -8749884253710184713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_parpadeo_18
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 1464
+        width: 417
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a36408e4488041e0800000000000000
+      internalID: -2215621187134528606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_parpadeo_19
+      rect:
+        serializedVersion: 2
+        x: 2085
+        y: 1464
+        width: 417
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec5c47d2f62cbca00800000000000000
+      internalID: 777929143411328462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_parpadeo_20
+      rect:
+        serializedVersion: 2
+        x: 2502
+        y: 1464
+        width: 417
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 602ccb290f8174920800000000000000
+      internalID: 2974373500434563590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_parpadeo_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 732
+        width: 417
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c4179e0b75d32890800000000000000
+      internalID: -7483903431257156408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_parpadeo_22
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 732
+        width: 417
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d98f17af509a890800000000000000
+      internalID: -7446413935668322940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_parpadeo_23
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 732
+        width: 417
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8fe13da0a8adc670800000000000000
+      internalID: 8560683874755145612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_parpadeo_24
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 732
+        width: 417
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d8a4fe9413e5b10800000000000000
+      internalID: 1972067880451869976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_parpadeo_25
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 732
+        width: 417
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0963877c53fba3e30800000000000000
+      internalID: 4484106616701466256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_parpadeo_26
+      rect:
+        serializedVersion: 2
+        x: 2085
+        y: 732
+        width: 417
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 991b8ad26984498d0800000000000000
+      internalID: -2840565655115615847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_parpadeo_27
+      rect:
+        serializedVersion: 2
+        x: 2502
+        y: 732
+        width: 417
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 610197f3c0c4f47f0800000000000000
+      internalID: -626198207692992490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_parpadeo_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 417
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49fe4e37097f2c570800000000000000
+      internalID: 8485616847711170452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_parpadeo_29
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 0
+        width: 417
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c620a6acb3e608440800000000000000
+      internalID: 4936066394676134508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_parpadeo_30
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 0
+        width: 417
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d5616aa134593a0800000000000000
+      internalID: -6659342692262716086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_parpadeo_31
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 0
+        width: 417
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82580857340dbd640800000000000000
+      internalID: 5105903590707332392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_parpadeo_32
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 0
+        width: 417
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c971dd66334447620800000000000000
+      internalID: 2770914658299484060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_parpadeo_33
+      rect:
+        serializedVersion: 2
+        x: 2085
+        y: 0
+        width: 417
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a981e7c1f3a63dae0800000000000000
+      internalID: -1525759029454956390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_parpadeo_34
+      rect:
+        serializedVersion: 2
+        x: 2502
+        y: 0
+        width: 417
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b5d9fa25aa0f9730800000000000000
+      internalID: 4007933897889928625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

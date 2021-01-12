@@ -60,7 +60,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _EnergyFill: 0.562
+    - _EnergyFill: 1
     - _FloodOffset: 0.6
     - _GradientIntensity: 0.19
     - _ScrollSpeed: -0.19

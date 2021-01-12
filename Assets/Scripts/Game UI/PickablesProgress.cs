@@ -5,18 +5,14 @@ using UnityEngine.UI;
 
 public class PickablesProgress : MonoBehaviour
 {
-    Image[] _pickables;
+    Animator[] _pickables;
 
     int _pickedIndex = 0;
     // Start is called before the first frame update
     void Start()
     {
-        _pickables = GetComponentsInChildren<Image>();
 
-        foreach (var p in _pickables)
-        {
-            p.color = Color.black;
-        }
+        _pickables = GetComponentsInChildren<Animator>();
 
         var pickables = FindObjectsOfType<Pickable>();
 
@@ -28,7 +24,7 @@ public class PickablesProgress : MonoBehaviour
     
     void PickedUp()
     {
-        _pickables[_pickedIndex].color = Color.white;
+        _pickables[_pickedIndex].SetBool("Picked", true);
 
         _pickedIndex++;
     }
