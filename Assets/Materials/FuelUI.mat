@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FuelUI
+  m_Shader: {fileID: 4800000, guid: 25cc6d9fbab74424483ce2e202b3de08, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BubblesColor:
+        m_Texture: {fileID: 2800000, guid: 2512eac8dd4100a4d8a63b5cc070a7d8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GasGradiente:
+        m_Texture: {fileID: 2800000, guid: 979cc9569f3401c49b6bae27e99d885e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainInterface:
+        m_Texture: {fileID: 2800000, guid: 25bb5dd3cb4e0954ba8b8c76f05c62fd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture0:
+        m_Texture: {fileID: 2800000, guid: 3d763f65bd35a174ab73f54d9f55eb82, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture1:
+        m_Texture: {fileID: 2800000, guid: 6590226ab6deb444cba5b34e9670d2b8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2:
+        m_Texture: {fileID: 2800000, guid: 33b5a002c2580f541876236702c0daaa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture3:
+        m_Texture: {fileID: 2800000, guid: 979cc9569f3401c49b6bae27e99d885e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: 94aba7dce416c7040b51d1688d29a3c0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample2:
+        m_Texture: {fileID: 2800000, guid: f1fd6688d7990c847b6034f7e124d8b9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _EnergyFill: 0.562
+    - _FloodOffset: 0.6
+    - _GradientIntensity: 0.19
+    - _ScrollSpeed: -0.19
+    - __dirty: 0
+    m_Colors:
+    - _BubbleColor: {r: 1, g: 1, b: 1, a: 0}
+    - _Color0: {r: 0, g: 1, b: 0.25882363, a: 0}
+    - _FloodColor: {r: 0.21861969, g: 0.6415094, b: 0.13616946, a: 1}
+    - _InnerBubblesColor: {r: 0.28526562, g: 0.6320754, b: 0.21764861, a: 0}
