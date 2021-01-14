@@ -17,20 +17,20 @@ public class ScreenManager : MonoBehaviour
         instance = this;
     }
 
-    void Start()
+    public void InitializeScreens()
     {
         Push(new ScreenGO(mainGameXf)); //Le asignamos cual va a ser la pantalla base
     }
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.P))
-        {
-            //Creamos una pantalla en base a un string
-            var s = Instantiate(Resources.Load<ScreenPause>("CanvasPause"));
-            Push(s);
+        //if (Input.GetKeyDown(KeyCode.P))
+        //{
+        //    //Creamos una pantalla en base a un string
+        //    var s = Instantiate(Resources.Load<ScreenPause>("CanvasPause"));
+        //    Push(s);
 
-        }
+        //}
     }
 
     public void Pop()

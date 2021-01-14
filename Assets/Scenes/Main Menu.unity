@@ -356,7 +356,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 398257082}
-  - component: {fileID: 398257083}
+  - component: {fileID: 398257084}
   m_Layer: 5
   m_Name: RealMenu
   m_TagString: Untagged
@@ -384,7 +384,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &398257083
+--- !u!114 &398257084
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -393,7 +393,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 398257081}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f51f50b50e433d3459a1ea15ff2bc084, type: 3}
+  m_Script: {fileID: 11500000, guid: 517922d41f8ecec4cb8bc27fde138393, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   showDirection: {x: -1, y: 0}

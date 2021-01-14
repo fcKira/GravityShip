@@ -47,10 +47,6 @@ public class ShipModel : Attractor, IGravitySensitive
             _rgbd.velocity = _velocityBeforePause;
     }
 
-    private void Start()
-    {
-        EventsManager.TriggerEvent(Constants.EVENT_SetPlayer, this);
-    }
 
 
     protected override void FixedUpdate()
