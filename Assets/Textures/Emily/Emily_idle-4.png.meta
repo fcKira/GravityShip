@@ -1,0 +1,1676 @@
+fileFormatVersion: 2
+guid: 8154ca5777f37744494323da57acc73a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8217835218467370746
+    second: Emily_idle-4_0
+  - first:
+      213: 4320659322112858072
+    second: Emily_idle-4_1
+  - first:
+      213: 7496109233181417745
+    second: Emily_idle-4_2
+  - first:
+      213: -4070861624190899785
+    second: Emily_idle-4_3
+  - first:
+      213: -729653756000257820
+    second: Emily_idle-4_4
+  - first:
+      213: 4767452191983179208
+    second: Emily_idle-4_5
+  - first:
+      213: -4154254670350555321
+    second: Emily_idle-4_6
+  - first:
+      213: -7300390379616768144
+    second: Emily_idle-4_7
+  - first:
+      213: -1419391044239530293
+    second: Emily_idle-4_8
+  - first:
+      213: 8769593594562682664
+    second: Emily_idle-4_9
+  - first:
+      213: -7943940648055108295
+    second: Emily_idle-4_10
+  - first:
+      213: -5827481908392113089
+    second: Emily_idle-4_11
+  - first:
+      213: -8769237653598115504
+    second: Emily_idle-4_12
+  - first:
+      213: -6848655907144570487
+    second: Emily_idle-4_13
+  - first:
+      213: -333739494617730212
+    second: Emily_idle-4_14
+  - first:
+      213: -1094165162765457841
+    second: Emily_idle-4_15
+  - first:
+      213: -1449766235250407764
+    second: Emily_idle-4_16
+  - first:
+      213: -1630879423691972216
+    second: Emily_idle-4_17
+  - first:
+      213: 4604313338386673836
+    second: Emily_idle-4_18
+  - first:
+      213: 5690109050539794719
+    second: Emily_idle-4_19
+  - first:
+      213: 4614268595533595113
+    second: Emily_idle-4_20
+  - first:
+      213: -3451700499323073039
+    second: Emily_idle-4_21
+  - first:
+      213: -3220745212608878254
+    second: Emily_idle-4_22
+  - first:
+      213: 4754926962964739682
+    second: Emily_idle-4_23
+  - first:
+      213: -1397157392145311027
+    second: Emily_idle-4_24
+  - first:
+      213: -896400159129356515
+    second: Emily_idle-4_25
+  - first:
+      213: -3616401839237010677
+    second: Emily_idle-4_26
+  - first:
+      213: 3465629447938014603
+    second: Emily_idle-4_27
+  - first:
+      213: -945474574715821704
+    second: Emily_idle-4_28
+  - first:
+      213: 8473623606354579071
+    second: Emily_idle-4_29
+  - first:
+      213: 646794756700318604
+    second: Emily_idle-4_30
+  - first:
+      213: 6625976589890001814
+    second: Emily_idle-4_31
+  - first:
+      213: 2951546734125597555
+    second: Emily_idle-4_32
+  - first:
+      213: -5604538853654141055
+    second: Emily_idle-4_33
+  - first:
+      213: -4730523275985564872
+    second: Emily_idle-4_34
+  - first:
+      213: 988221183235334624
+    second: Emily_idle-4_35
+  - first:
+      213: 459674555955251101
+    second: Emily_idle-4_36
+  - first:
+      213: -3564791864198498180
+    second: Emily_idle-4_37
+  - first:
+      213: 8824890796289763315
+    second: Emily_idle-4_38
+  - first:
+      213: 3711308286105825287
+    second: Emily_idle-4_39
+  - first:
+      213: 7348271211864575972
+    second: Emily_idle-4_40
+  - first:
+      213: 1721845658707696298
+    second: Emily_idle-4_41
+  - first:
+      213: 1290651879962222259
+    second: Emily_idle-4_42
+  - first:
+      213: -7011563738244691922
+    second: Emily_idle-4_43
+  - first:
+      213: 2554836433049702863
+    second: Emily_idle-4_44
+  - first:
+      213: -5037711833495121922
+    second: Emily_idle-4_45
+  - first:
+      213: -7288325878165387826
+    second: Emily_idle-4_46
+  - first:
+      213: -7513456846374362626
+    second: Emily_idle-4_47
+  - first:
+      213: -8797513000071091735
+    second: Emily_idle-4_48
+  - first:
+      213: -1889220113648508403
+    second: Emily_idle-4_49
+  - first:
+      213: 7905297112927461317
+    second: Emily_idle-4_50
+  - first:
+      213: -1107933171048664938
+    second: Emily_idle-4_51
+  - first:
+      213: -7668685744577675939
+    second: Emily_idle-4_52
+  - first:
+      213: -1095478540992745576
+    second: Emily_idle-4_53
+  - first:
+      213: -4655015671194393660
+    second: Emily_idle-4_54
+  - first:
+      213: 2051902455367345937
+    second: Emily_idle-4_55
+  - first:
+      213: -5281669078683349534
+    second: Emily_idle-4_56
+  - first:
+      213: -1095947972496695524
+    second: Emily_idle-4_57
+  - first:
+      213: 898046413475772200
+    second: Emily_idle-4_58
+  - first:
+      213: -1750092261207042922
+    second: Emily_idle-4_59
+  - first:
+      213: -508694460209181755
+    second: Emily_idle-4_60
+  - first:
+      213: -3565931859548566485
+    second: Emily_idle-4_61
+  - first:
+      213: -5742598741628987549
+    second: Emily_idle-4_62
+  - first:
+      213: -4168063382275074635
+    second: Emily_idle-4_63
+  - first:
+      213: 6980056488449834002
+    second: Emily_idle-4_64
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Emily_idle-4_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2807
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 609ce84a86264fd80800000000000000
+      internalID: -8217835218467370746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_1
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 2807
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d7540af2c016fb30800000000000000
+      internalID: 4320659322112858072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_2
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 2807
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 111ed49a1a7870860800000000000000
+      internalID: 7496109233181417745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_3
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 2807
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b9e450dbe46187c0800000000000000
+      internalID: -4070861624190899785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_4
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 2807
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8339856cfbfd5f0800000000000000
+      internalID: -729653756000257820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_5
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 2807
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c590d27284692240800000000000000
+      internalID: 4767452191983179208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_6
+      rect:
+        serializedVersion: 2
+        x: 2280
+        y: 2807
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7476f33336f1956c0800000000000000
+      internalID: -4154254670350555321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_7
+      rect:
+        serializedVersion: 2
+        x: 2660
+        y: 2807
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f634df0adcfaa90800000000000000
+      internalID: -7300390379616768144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_8
+      rect:
+        serializedVersion: 2
+        x: 3040
+        y: 2807
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc66bb29d5f4d4ce0800000000000000
+      internalID: -1419391044239530293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_9
+      rect:
+        serializedVersion: 2
+        x: 3420
+        y: 2807
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f137439ead3b970800000000000000
+      internalID: 8769593594562682664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_10
+      rect:
+        serializedVersion: 2
+        x: 3800
+        y: 2807
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d83e3c11471c190800000000000000
+      internalID: -7943940648055108295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_11
+      rect:
+        serializedVersion: 2
+        x: 4180
+        y: 2807
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3cc5436410a02fa0800000000000000
+      internalID: -5827481908392113089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_12
+      rect:
+        serializedVersion: 2
+        x: 4560
+        y: 2807
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 059ed42c0d86d4680800000000000000
+      internalID: -8769237653598115504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2106
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98964c9fcbfa4f0a0800000000000000
+      internalID: -6848655907144570487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_14
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 2106
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c53bac7a2b15e5bf0800000000000000
+      internalID: -333739494617730212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_15
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 2106
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46e1c3e49eb0d0f0800000000000000
+      internalID: -1094165162765457841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_16
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 2106
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca64b8c4a4561ebe0800000000000000
+      internalID: -1449766235250407764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_17
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 2106
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 881a85f0ec3fd59e0800000000000000
+      internalID: -1630879423691972216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_18
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 2106
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca07129269ec5ef30800000000000000
+      internalID: 4604313338386673836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_19
+      rect:
+        serializedVersion: 2
+        x: 2280
+        y: 2106
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f11e8a2b80457fe40800000000000000
+      internalID: 5690109050539794719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_20
+      rect:
+        serializedVersion: 2
+        x: 2660
+        y: 2106
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e1450717dc290040800000000000000
+      internalID: 4614268595533595113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_21
+      rect:
+        serializedVersion: 2
+        x: 3040
+        y: 2106
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd4fca0fa81910d0800000000000000
+      internalID: -3451700499323073039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_22
+      rect:
+        serializedVersion: 2
+        x: 3420
+        y: 2106
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 259686a1b4d9d43d0800000000000000
+      internalID: -3220745212608878254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_23
+      rect:
+        serializedVersion: 2
+        x: 3800
+        y: 2106
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 266b07051e4ecf140800000000000000
+      internalID: 4754926962964739682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_24
+      rect:
+        serializedVersion: 2
+        x: 4180
+        y: 2106
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca1ed911cc4c9ce0800000000000000
+      internalID: -1397157392145311027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_25
+      rect:
+        serializedVersion: 2
+        x: 4560
+        y: 2106
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d17bd7afdc85f83f0800000000000000
+      internalID: -896400159129356515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1405
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b653f00b5ffcdc0800000000000000
+      internalID: -3616401839237010677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_27
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1405
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8d7a770f93681030800000000000000
+      internalID: 3465629447938014603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_28
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 1405
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87166e532eff0e2f0800000000000000
+      internalID: -945474574715821704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_29
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 1405
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e012956cb589570800000000000000
+      internalID: 8473623606354579071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_30
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 1405
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8b25b38760e9f800800000000000000
+      internalID: 646794756700318604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_31
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 1405
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b92724a9234fb50800000000000000
+      internalID: 6625976589890001814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_32
+      rect:
+        serializedVersion: 2
+        x: 2280
+        y: 1405
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3734581ed1006f820800000000000000
+      internalID: 2951546734125597555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_33
+      rect:
+        serializedVersion: 2
+        x: 2660
+        y: 1405
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 187e1125b9da832b0800000000000000
+      internalID: -5604538853654141055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_34
+      rect:
+        serializedVersion: 2
+        x: 3040
+        y: 1405
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83bc925d42ec95eb0800000000000000
+      internalID: -4730523275985564872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_35
+      rect:
+        serializedVersion: 2
+        x: 3420
+        y: 1405
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e1224a2eedd6bd00800000000000000
+      internalID: 988221183235334624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_36
+      rect:
+        serializedVersion: 2
+        x: 3800
+        y: 1405
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d978ffbb297116600800000000000000
+      internalID: 459674555955251101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_37
+      rect:
+        serializedVersion: 2
+        x: 4180
+        y: 1405
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c78fe34cfa0578ec0800000000000000
+      internalID: -3564791864198498180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_38
+      rect:
+        serializedVersion: 2
+        x: 4560
+        y: 1405
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f727764c6f487a70800000000000000
+      internalID: 8824890796289763315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 704
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7003d4d0937318330800000000000000
+      internalID: 3711308286105825287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_40
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 704
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4efca600cbd4af560800000000000000
+      internalID: 7348271211864575972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_41
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 704
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa125df08935e710800000000000000
+      internalID: 1721845658707696298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_42
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 704
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3be96d1fb0159e110800000000000000
+      internalID: 1290651879962222259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_43
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 704
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e284aedcdebe1be90800000000000000
+      internalID: -7011563738244691922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_44
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 704
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc15723233a947320800000000000000
+      internalID: 2554836433049702863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_45
+      rect:
+        serializedVersion: 2
+        x: 2280
+        y: 704
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: effcdb347c3761ab0800000000000000
+      internalID: -5037711833495121922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_46
+      rect:
+        serializedVersion: 2
+        x: 2660
+        y: 704
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec54aa0aa3aaada90800000000000000
+      internalID: -7288325878165387826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_47
+      rect:
+        serializedVersion: 2
+        x: 3040
+        y: 704
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef121a46ec6dab790800000000000000
+      internalID: -7513456846374362626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_48
+      rect:
+        serializedVersion: 2
+        x: 3420
+        y: 704
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e9a1e3a984f8e580800000000000000
+      internalID: -8797513000071091735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_49
+      rect:
+        serializedVersion: 2
+        x: 3800
+        y: 704
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02257fe05428c5e0800000000000000
+      internalID: -1889220113648508403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_50
+      rect:
+        serializedVersion: 2
+        x: 4180
+        y: 704
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cf56f317d145bd60800000000000000
+      internalID: 7905297112927461317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_51
+      rect:
+        serializedVersion: 2
+        x: 4560
+        y: 704
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 690b5c8a6a4df90f0800000000000000
+      internalID: -1107933171048664938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d785c12fa539590800000000000000
+      internalID: -7668685744577675939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_53
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 3
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f601132141cc0f0800000000000000
+      internalID: -1095478540992745576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_54
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 3
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c3e49e09ef066fb0800000000000000
+      internalID: -4655015671194393660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_55
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 3
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1172ce56962d97c10800000000000000
+      internalID: 2051902455367345937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_56
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 3
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed0ae7d4fdb3b6b0800000000000000
+      internalID: -5281669078683349534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_57
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 3
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1f560720296ac0f0800000000000000
+      internalID: -1095947972496695524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_58
+      rect:
+        serializedVersion: 2
+        x: 2280
+        y: 3
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 827790b7470867c00800000000000000
+      internalID: 898046413475772200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_59
+      rect:
+        serializedVersion: 2
+        x: 2660
+        y: 3
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 694189e5c5c66b7e0800000000000000
+      internalID: -1750092261207042922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_60
+      rect:
+        serializedVersion: 2
+        x: 3040
+        y: 3
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cbc5086511c0f8f0800000000000000
+      internalID: -508694460209181755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_61
+      rect:
+        serializedVersion: 2
+        x: 3420
+        y: 3
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c0c5aedd3438ec0800000000000000
+      internalID: -3565931859548566485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_62
+      rect:
+        serializedVersion: 2
+        x: 3800
+        y: 3
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 367599dbed03e40b0800000000000000
+      internalID: -5742598741628987549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_63
+      rect:
+        serializedVersion: 2
+        x: 4180
+        y: 3
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b55e2aef601826c0800000000000000
+      internalID: -4168063382275074635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emily_idle-4_64
+      rect:
+        serializedVersion: 2
+        x: 4560
+        y: 3
+        width: 380
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21c7632f4642ed060800000000000000
+      internalID: 6980056488449834002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -295,17 +295,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3518753161316482276}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.030331837, w: 0.9995399}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.950446, y: 0.950446, z: 0.950446}
   m_Children: []
   m_Father: {fileID: 3518753159694065023}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 3.476}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -132, y: -171}
-  m_SizeDelta: {x: -577.23694, y: 852.4912}
+  m_AnchoredPosition: {x: -147.02, y: -122}
+  m_SizeDelta: {x: -513.6016, y: 937.92456}
   m_Pivot: {x: 0, y: 0}
 --- !u!222 &3518753161316482264
 CanvasRenderer:
@@ -334,7 +334,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -8099523319617387753, guid: 67d7c8798b22e3641b8ad37c44b4f825,
+  m_Sprite: {fileID: -8217835218467370746, guid: 8154ca5777f37744494323da57acc73a,
     type: 3}
   m_Type: 0
   m_PreserveAspect: 1
@@ -477,7 +477,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   showDirection: {x: -1, y: 0}
-  showSpeedMultiplier: 1
+  showSpeedMultiplier: 1.71
   myTextBox: {fileID: 3518753160911450975}
   myBubbleText: {fileID: 3518753160310518555}
-  timeBetweenLetters: 0.05
+  timeBetweenLetters: 0.01
