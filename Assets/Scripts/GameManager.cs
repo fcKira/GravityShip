@@ -9,6 +9,11 @@ public class GameManager : MonoBehaviour
     AudioMixer _audMixer;
     Action OnChangeAudioVolume;
 
+    private void OnEnable()
+    {
+        EventsManager.SubscribeToEvent(Constants.EVENT_PlayerDeath, EndGame);
+    }
+
     void Start()
     {
         EventsManager.TriggerEvent(Constants.EVENT_SetPlayer, FindObjectOfType<ShipModel>());
@@ -41,6 +46,16 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    private void OnDisable()
+    {
+        EventsManager.UnsubscribeToEvent(Constants.EVENT_PlayerDeath, EndGame);
+    }
+
+    void EndGame(params object[] p)
+    {
+        StartCoroutine(TimeAfterNextState(1.5f, () => UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex)));
+    }
+
     public void ChangeVolume()
     {
         OnChangeAudioVolume();
@@ -60,4 +75,17 @@ public class GameManager : MonoBehaviour
         OnChangeAudioVolume = VolumeOff;
     }
 
+
+    IEnumerator TimeAfterNextState(float timer, Action callback)
+    {
+        float _ticks = 0;
+
+        while(_ticks < timer)
+        {
+            _ticks += Time.deltaTime;
+            yield return new WaitUntil(() => this.enabled);
+        }
+
+        callback();
+    }
 }

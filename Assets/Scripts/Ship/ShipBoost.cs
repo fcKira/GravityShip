@@ -4,7 +4,7 @@ using UnityEngine;
 using System;
 using UnityEngine.EventSystems;
 
-public class ShipBoost : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IPointerExitHandler
+public class ShipBoost : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IPointerExitHandler, IPlayerNeeder
 {
     public Material boostBar;
     public float totalBoost = 3;
@@ -19,6 +19,7 @@ public class ShipBoost : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, 
     private void OnEnable()
     {
         EventsManager.SubscribeToEvent(Constants.EVENT_SetPlayer, GetPlayer);
+        EventsManager.SubscribeToEvent(Constants.EVENT_PlayerDeath, LoosePlayer);
     }
 
     void Start()
@@ -50,17 +51,23 @@ public class ShipBoost : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, 
     private void OnDisable()
     {
         EventsManager.UnsubscribeToEvent(Constants.EVENT_SetPlayer, GetPlayer);
+        EventsManager.UnsubscribeToEvent(Constants.EVENT_PlayerDeath, LoosePlayer);
         if (_beingTouched)
             TouchEnd();
     }
 
     //Add start and end boost from ship into my buttonUp and buttonDown Actions
-    void GetPlayer(params object[] p)
+    public void GetPlayer(params object[] p)
     {
         var ship = (ShipModel)p[0];
 
         _onBegan = ship.StartBoost;
         _onEnd = ship.StopBoost;
+    }
+
+    public void LoosePlayer(params object[] p)
+    {
+        this.enabled = false;
     }
 
     void TouchBegan()

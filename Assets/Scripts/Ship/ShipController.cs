@@ -9,8 +9,10 @@ public class ShipController
     public ShipController(ShipModel m, ShipView v)
     {
         _m = m;
+        v.SetRoot(_m.transform.parent);
 
         _m._onBoost += v.UseBoost;
+        _m._onDeath += v.Death;
     }
 
     public void ControllerFixedUpdate()

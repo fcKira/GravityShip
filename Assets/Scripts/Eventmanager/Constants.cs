@@ -1,6 +1,7 @@
 ﻿public class Constants
 {
     public const string EVENT_SetPlayer = "To get player when scene begins";
+    public const string EVENT_PlayerDeath = "When player explodes or loose";
 }
 
 

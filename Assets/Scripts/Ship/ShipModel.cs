@@ -27,6 +27,7 @@ public class ShipModel : Attractor, IGravitySensitive
     Camera _mainCamera;
 
     public event Action<bool> _onBoost = delegate { };
+    public event Action _onDeath = delegate { };
 
     void Awake()
     {
@@ -132,6 +133,13 @@ public class ShipModel : Attractor, IGravitySensitive
         transform.up = _rgbd.velocity.normalized;
     }
 
+    void Death()
+    {
+        _onDeath();
+        EventsManager.TriggerEvent(Constants.EVENT_PlayerDeath);
+        Destroy(gameObject);
+    }
+
     protected override void Attract()
     {
         Collider2D[] pickables = Physics2D.OverlapCircleAll(transform.position, attractRadius, FlyweightPointer.Asteroid.layerMaskForShip);
@@ -154,11 +162,11 @@ public class ShipModel : Attractor, IGravitySensitive
     private void OnTriggerEnter2D(Collider2D collision)
     {
         var pickableObj = collision.GetComponent<Pickable>();
-        
+
         if (pickableObj)
             pickableObj.PickedUp();
-        else if (collision.GetComponent<AttractorObj>())
-            UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex);
+        else if (collision.GetComponent<AttractorObj>() || collision.gameObject.layer == 10)
+            Death();
 
     }
 
