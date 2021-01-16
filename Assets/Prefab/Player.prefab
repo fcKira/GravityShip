@@ -17,7 +17,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1054292076
 Transform:
   m_ObjectHideFlags: 0
@@ -47,7 +47,7 @@ ParticleSystem:
   ringBufferMode: 0
   ringBufferLoopRange: {x: 0, y: 1}
   looping: 1
-  prewarm: 0
+  prewarm: 1
   playOnAwake: 1
   useUnscaledTime: 0
   autoRandomSeed: 1
@@ -4951,8 +4951,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ccd4bc3068af844c9efaa66a6faa4ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathParticle: {fileID: 0}
-  boostParticle: {fileID: 1054292075}
+  boostParticle: {fileID: 1054292078}
 --- !u!95 &7741909484615191993
 Animator:
   serializedVersion: 3

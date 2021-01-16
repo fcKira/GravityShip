@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class ShipView : MonoBehaviour
 {
-    public GameObject boostParticle;
+    public ParticleSystem boostParticle;
+    ParticleSystem.EmissionModule _boostParticleEmission;
     Transform _root;
     Transform _particlePosition;
     Animator _myAnim;
@@ -17,11 +18,15 @@ public class ShipView : MonoBehaviour
         _deathParticle.transform.SetParent(_root);
 
         _particlePosition = transform.parent;
+
     }
 
     void Start()
     {
         _myAnim = GetComponent<Animator>();
+        _boostParticleEmission = boostParticle.emission;
+
+        _boostParticleEmission.rateOverDistance = 0;
     }
 
     public void SetRoot(Transform root)
@@ -33,7 +38,7 @@ public class ShipView : MonoBehaviour
     {
         _myAnim.SetBool("BoostPressed", b);
 
-        boostParticle.SetActive(b);
+        _boostParticleEmission.rateOverDistance = b ? 3 : 0;
     }
 
     public void Death()
